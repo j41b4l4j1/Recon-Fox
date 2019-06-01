@@ -5,9 +5,10 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { ToolbarComponent } from "./toolbar/toolbar.component";
 import { WelcomeComponentComponent } from './welcome-component/welcome-component.component';
+import { BannerResultsComponent } from './banner-results/banner-results.component';
 
 @NgModule({
-  declarations: [AppComponent, ToolbarComponent, WelcomeComponentComponent],
+  declarations: [AppComponent, ToolbarComponent, WelcomeComponentComponent, BannerResultsComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
